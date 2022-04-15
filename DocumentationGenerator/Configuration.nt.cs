@@ -7,7 +7,7 @@ using NTypewriter.CodeModel.Functions;
 
 namespace DocumentationGenerator
 {    
-    class NTEConfig : EditorConfig
+    public class NTEConfig : EditorConfig
     {  
         public override bool AddGeneratedFilesToVSProject => false;
 
